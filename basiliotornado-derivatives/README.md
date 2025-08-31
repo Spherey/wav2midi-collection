@@ -13,3 +13,5 @@ odd-symmetric spectrograms create frequency responses of two side-lobes, where t
 if you subtract an odd symmetric spectrogram from a regular spectrogram (where there is usually one wide main lobe), it creates a thin "spike" lobe where the IF is. (when i say subtraction in this context, think of it like subtracting two images using layer modes in an image editor program)
 
 therefore, it circumvents spectral imprecision in both axes (time and frequency)
+
+for each key in the output midi file, all notes are split/chopped such that the length of each note is either 1x or a multiple of a frequency's cycle length. if all the notes were of equal length, the whole midi would sound "buzzy" and monotone (like in this video for instance https://www.youtube.com/watch?v=5InaVQ3JWLs)
