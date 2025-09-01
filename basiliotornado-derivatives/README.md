@@ -17,6 +17,8 @@ as of 8/31/2025, there are two scripts in this folder. the one called "NOTreduce
 
 ### therefore, it circumvents spectral imprecision in both axes (time and frequency)
 
+<img width="1160" height="714" alt="image" src="https://github.com/user-attachments/assets/ec81365b-5c29-4879-9b35-4a4929a9d897" />
+
 for each key in the output midi file, all notes are split/chopped such that the length of each note is either 1x or a multiple of a frequency's cycle length. 
 ### (hence the term "dynamic" in basiliotornado's repository)
 (if all the notes were of equal length, the whole midi would sound "buzzy" and monotone, like in this video for instance https://www.youtube.com/watch?v=5InaVQ3JWLs)
